@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'acme';
+}
+.hide{
+    display: none;
+}
+.heading{
+    color: rgb(245, 58, 114);
+    text-shadow:5px 5px  rgb(246, 247, 245);
+    font-size: 6rem;
+    display:block;
+    margin: auto;
+}
+h2{
+    color: rgb(245, 117, 58);
+    font-size: 2rem;
+    text-shadow: 1px 1px white;
+    display:block;
+    margin: auto;
+}
+.car{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: url(images/mainCar1.jpg);
+    background-size: 50px 70px;
+    background-repeat: no-repeat;
+    
+    bottom: 120px;
+}
+.enemy{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: url(images/redCar.jpg);
+    background-size: 50px 70px;
+    background-repeat: no-repeat;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background-color: #2d3436;
+    margin: auto;
+    position: relative;
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+}
+.lines{
+    width: 10px;;
+    height: 100px;
+    background-color: white;
+    margin-left: 195px;
+    position: absolute;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 1010px;
+    background: #f72d59;
+    line-height: 70px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.maxScore{
+    position: absolute;
+    top: 15px;
+    background: #f72d59;
+    line-height: 70px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.startGame{
+    position: absolute;
+    background-color: rgb(245, 58, 114);
+    left: 50%;
+    top: 75%;
+    color: white;
+    text-shadow: 1px 1px white;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 1px solid #ff6b6b;
+    padding: 25px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #777;
+}
+.mainPage{
+    position: absolute;
+    background-color: rgba(107, 12, 216, 0.651);
+    margin: auto;
+    left: 25%;
+    color: rgb(245, 203, 16);
+    height: 100%;
+    text-shadow: 1px 1px white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid rgba(107, 12, 216, 0.651);
+    padding: 21px;
+    width: 49%;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #777;
+
+}
+/*
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 100%;}
+    to { background-position: 0 0; }
+    
+}
+.carGame{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/top.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    
+}
+.carGame:hover{
+    background-repeat: repeat-y;
+    
+    animation: animatedBackground 4s linear infinite;
+}*/
