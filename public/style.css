@@ -61,10 +61,10 @@ h2{
 .score{
     position: absolute;
     top: 15px;
-    left: 1010px;
+    right: 0;
     background: #f72d59;
     line-height: 70px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     color: white;
     font-size: 1.5rem;

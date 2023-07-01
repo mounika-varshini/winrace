@@ -33,11 +33,11 @@ function isCollide(a, b) {
 function moveLines() {
     let lines = document.querySelectorAll('.lines');
     lines.forEach(function (item) {
-        if (item.y >= 100) {
-            item.y -= 150;
+        if (item.y >= 750) {
+            item.y -= 870;
         }
-        item.y += 2;
-        item.style.top = item.y + "vh";
+        item.y += 7;
+        item.style.top = item.y + "px";
     })
 }
 
@@ -55,7 +55,7 @@ function moveEnemy(car) {
             item.y = -300;
             item.style.left = Math.floor(Math.random() * 350) + "px";
         }
-        item.y += 6;
+        item.y += 10;
         item.style.top = item.y + "px";
     })
 }
