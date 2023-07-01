@@ -30,6 +30,8 @@ function isCollide(a, b) {
     return !((aRect.bottom < bRect.top) || (aRect.top > bRect.bottom) ||
         (bRect.left > aRect.right) || (aRect.left > bRect.right));
 }
+
+//lines in game area
 function moveLines() {
     let lines = document.querySelectorAll('.lines');
     lines.forEach(function (item) {
